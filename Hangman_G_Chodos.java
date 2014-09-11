@@ -51,8 +51,6 @@ public class Hangman_G_Chodos
         }
     }
 
-	
-	
     private static void promptForGuess()
     {
         System.out.println("\n\nEnter your guess here:");
@@ -155,7 +153,7 @@ public class Hangman_G_Chodos
                         + "     O                             Misses Left: "
                         + guessesRemaining
                         + "      \n |    /|\\\n |    / \\"
-                        + "                    Drat, you couldn't save him!  :`("
+                        + "                    Sorry, you couldn't save him!  :`("
                         + "\n |                               The word was "
                         + "\"" + wordToGuess + "\"." + "\n |\n_|______________    ");
                 break;
