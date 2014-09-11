@@ -47,7 +47,7 @@ public class Hangman_G_Chodos
         }
         if (solved)
         {
-            System.out.print("\n\nYou won the game!");
+            System.out.print("\n\nYou won the game!  You're so incredible and awesome!");
         }
     }
 
