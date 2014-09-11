@@ -35,7 +35,6 @@ public class Hangman_G_Chodos
         printGallows();  // this is case '6', printing an empty gallows and blank underscores when a new game begins
     }
 
-
     private static void playGame()
     {
         solved = false;        
@@ -65,10 +64,6 @@ public class Hangman_G_Chodos
         }
     }
 
-	/**
-	* char c and char c1 represent the same letter, but one is uppercase and the other is lowercase
-	*
-	*/
     private static void checkGuess(char c, char c1)
     {
         Boolean found = false;
